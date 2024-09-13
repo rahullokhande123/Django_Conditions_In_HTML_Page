@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Name : {{key1.name}}</h1>
+    <h1>Age : {{key2.age}}</h1>
+    <h1>Qulification : {{key3.quli}}</h1>
+    {{name}}
+</body>
+</html> -->
+
+{% comment %} =============================================== {% endcomment %}
+
+{% if key1 %}
+    {{key1}}
+   {% elif key2 %}
+    {{key2}}
+   {% elif key3 %}
+    {{key3}}
+{% else %}
+   <h1>Hello.......</h1>
+{% endif %} 
+
+{% comment %} =============================================== {% endcomment %}
